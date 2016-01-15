@@ -9,8 +9,8 @@ var obj = {
     method: 'alibaba.aliqin.fc.sms.num.send',
     v: '2.0',
     timestamp: '2016-1-16 02:33:30',
-    partner_id: 'top-sdk-java-20151020',
-    rec_num: '15110195***',
+    partner_id: 'top-sdk-nodejs-20160116',
+    rec_num: '15110****', //手机号多个以逗号间隔
     sign_method: 'hmac',
     sms_type: 'normal',
     sms_param: '{"code":"giscafer","product":"alidayu短信测试"}',
