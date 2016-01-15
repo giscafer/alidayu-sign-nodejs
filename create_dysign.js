@@ -6,8 +6,8 @@ var md5 = require("blueimp-md5");
 
 // 淘宝应用App信息(换成自己的)
 var config = {
-    AppKey: '233002**',
-    AppSecret: '3403636b338e1003999dd94**'
+    AppKey: '23300270',
+    AppSecret: '3403636b338e1003999dd946750ad69b'
 };
 exports.config=config;
 
