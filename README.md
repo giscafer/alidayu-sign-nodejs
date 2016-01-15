@@ -10,7 +10,7 @@
 
 ```
 
-![截图](screenshot.png)
+![截图](https://github.com/giscafer/alidayu-sign-nodejs/blob/master/images/screenshot.png)
 
 ### 使用
 
