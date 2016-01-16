@@ -1,6 +1,6 @@
 ### alidayu-sign-nodejs
 
-使用NodeJS实现阿里大鱼短信签名`sign`的生成
+`NodeJS`生成阿里大鱼短信签名、短信发送demo 
 
 
 **发送成功返回**
