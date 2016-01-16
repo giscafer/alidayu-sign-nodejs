@@ -1,4 +1,4 @@
-var helperTb = require('./create_dysign');
+var signGenerate = require('./create_dysign');
 var http = require('http');
 var qs = require('querystring');
 
@@ -18,11 +18,11 @@ var obj = {
     sms_template_code: 'SMS_4725038'
 }
 //生成签名并拼接请求参数链接
-var sign = helperTb.dySign(obj);
+var sign = signGenerate.dySign(obj);
 console.log('签名：', sign);
 
 obj.sign = sign;
-obj.app_key = helperTb.config.AppKey;
+obj.app_key = signGenerate.config.AppKey;
 var arr = [];
 for (var p in obj) {
     arr.push(p + '=' + obj[p]);
