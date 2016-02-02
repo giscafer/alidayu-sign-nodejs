@@ -19,3 +19,6 @@
 - npm install
 
 - node dayu.js
+- 
+## 推荐使用
+[alidayujs](https://github.com/giscafer/alidayujs)（JavaScript Alidayu SDK. 兼容服务器端环境node.js,模块加载器如RequireJS和所有浏览器 ）
