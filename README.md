@@ -19,8 +19,11 @@
 
 将`create_dysign.js`文件里边App信息修改为自己的；
 并根据需要修改`dayu.js`的config参数
-- npm install
-- node dayu.js
+
+运行：
+> npm install
+
+> node dayu.js
 
  
 ## 推荐使用
