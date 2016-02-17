@@ -7,7 +7,7 @@ var md5 = require("blueimp-md5");
 // 淘宝应用App信息(换成自己的)
 var config = {
     AppKey: '233002**',
-    AppSecret: '3403636b338e100399**'
+    AppSecret: '3403636b338e1003999dd9467**b'
 };
 exports.config=config;
 
@@ -34,14 +34,12 @@ var dySign = function (obj) {
     // 2、按首字母升序排列
     arr.sort();
     // 3、连接字符串
-    var msg =  arr.join('');
+    var signStr =  arr.join('');
+    var str = config.AppSecret + signStr + config.AppSecret;
     // console.log(msg);
 
-    // 生成签名 sign hmac
-    var sign = md5(msg, config.AppSecret);
-
     // 返回
-    return sign.toUpperCase();
+    return md5(str).toUpperCase();
 }
 
 module.exports.dySign = dySign;

@@ -10,8 +10,8 @@ var obj = {
     v: '2.0',
     timestamp: '2016-1-16 02:33:30',
     partner_id: 'top-sdk-nodejs-20160116',
-    rec_num: '15110****', //手机号多个以逗号间隔
-    sign_method: 'hmac',
+    rec_num: '151****5197', //手机号多个以逗号间隔
+    sign_method: 'md5',
     sms_type: 'normal',
     sms_param: '{"code":"giscafer","product":"alidayu短信测试"}',
     sms_free_sign_name: '身份验证',
