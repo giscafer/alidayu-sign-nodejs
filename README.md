@@ -2,7 +2,7 @@
 
 `NodeJS`生成阿里大鱼短信签名、短信发送demo 
 
-**推荐更方便的用法，使用nlidayujs件的demo**：[alidayujs-demo](https://github.com/giscafer/alidayujs-demo)
+推荐更方便的用法，使用alidayujs：[alidayujs-demo](https://github.com/giscafer/alidayujs-demo)
 
 测试截图
 
