@@ -2,14 +2,10 @@
 
 `NodeJS`生成阿里大鱼短信签名、短信发送demo 
 
-**此demo写的不好，推荐使用npm插件的demo**：[alidayujs-demo](https://github.com/giscafer/alidayujs-demo)
+**推荐更方便的用法，使用nlidayujs件的demo**：[alidayujs-demo](https://github.com/giscafer/alidayujs-demo)
 
-**发送成功返回**
+测试截图
 
-```
-     {"alibaba_aliqin_fc_sms_num_send_response":{"result":{"err_code":"0","model":"100545278271^1100912293896","success":true},"request_id":"15q8um2g8w8ef"}}
-
-```
 
 ![截图](https://github.com/giscafer/alidayu-sign-nodejs/blob/master/images/screenshot.png)
 
